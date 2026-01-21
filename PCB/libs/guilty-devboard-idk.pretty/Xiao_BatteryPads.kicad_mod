@@ -1,0 +1,110 @@
+(footprint "Xiao_BatteryPads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc258108-8cb8-40f2-89d1-3edd50180df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Xiao_BatteryPads"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd56f3ac-3384-405e-9e81-d4bcc2027f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00c6fd6b-0546-4cde-9cd4-c931dd9ee381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f5ed540-2852-4ec4-b149-d098411da1e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "BAT+"
+		(at -0.5 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6dc7b832-ca26-413b-b8fc-21f2724e53f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT-"
+		(at -0.5 1.595 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cdbf39ef-8b37-4d63-a1b1-a233be6c78c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "732f0850-f973-4903-a800-1b68fe8b5962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.055002 0.99325)
+		(size 2.5 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cfaf2473-5970-4405-8b58-f84387274cb1")
+	)
+	(pad "2" smd roundrect
+		(at -2.055003 2.89825)
+		(size 2.5 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f13bd8d3-41b5-44a1-8045-79b82335557b")
+	)
+	(embedded_fonts no)
+)
