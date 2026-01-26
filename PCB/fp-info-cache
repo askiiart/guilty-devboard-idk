@@ -1,4 +1,4 @@
-27437530891351127
+27455223818489679
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108997,9 +108997,79 @@ Varistor VF
 2
 2
 easyeda2kicad
+LFCSP-10_L3.0-W3.0-P0.50-BL-EP
+
+
+0
+11
+11
+easyeda2kicad
+PDFN-6_L2.0-W2.0-P0.65-BL-EP-1
+
+
+0
+8
+6
+easyeda2kicad
+TSNP-6_L1.1-W0.7-P0.40-BL
+
+
+0
+6
+6
+easyeda2kicad
+UDFN-8_L2.0-W2.0-P0.50-BL-EP
+
+
+0
+9
+9
+easyeda2kicad
 WLCSP-6_L1.2-W0.9-R3-C2-P0.40-TL
 
 
 0
 6
 6
+guilty-devboard-idk
+0603_DSN_AND8464-D
+
+
+0
+2
+2
+guilty-devboard-idk
+Xiao Pin
+
+
+0
+2
+1
+guilty-devboard-idk
+Xiao nRF52840 Plus pads
+
+
+0
+51
+22
+guilty-devboard-idk
+Xiao nRF52840 pads
+
+
+0
+50
+22
+guilty-devboard-idk
+Xiao universal pins
+
+
+0
+42
+14
+guilty-devboard-idk
+Xiao_BatteryPads
+
+
+0
+2
+2
