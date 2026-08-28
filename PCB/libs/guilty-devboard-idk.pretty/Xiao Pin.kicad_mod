@@ -1,13 +1,13 @@
 (footprint "Xiao Pin"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "80509f58-fc1a-4163-93c4-12af2563326f")
+		(uuid "45594e46-72db-4738-865a-3a7fe4a9bad3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5e1a1f72-55e8-492d-96bb-368aa10b4360")
+		(uuid "9488fd1e-56d3-4716-a86f-682008a1ff4e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3e5c548-31a2-4272-92d3-66f8d220f303")
+		(uuid "ec5b6e3f-c969-4787-8a7d-495229291aa1")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dee61ae7-8cb6-445e-81f9-1baa9db23041")
+		(uuid "93b7ab85-1852-4ebf-aa68-f3bbb5960376")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +54,12 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "57e59ab8-24d8-430b-b321-f6c63a365e41")
+		(uuid "1e33c223-4e9d-453d-b1e8-f8884a8c0a5b")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +73,7 @@
 		(drill 0.889)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8347c0ac-71e8-41a3-9039-7210583bc548")
+		(uuid "9f13337c-b0be-455d-80a5-5da09c8ec5bb")
 	)
 	(pad "1" smd roundrect
 		(at 0.605 0)
@@ -80,7 +81,7 @@
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
-		(uuid "4c047b8d-6d62-4964-bdd9-c706e45ff438")
+		(uuid "e87b3ec0-c36c-4ccf-ae7f-82ed755b20bf")
 	)
 	(embedded_fonts no)
 )

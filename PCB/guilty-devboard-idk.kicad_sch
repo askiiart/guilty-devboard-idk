@@ -5140,7 +5140,7 @@
 					)
 				)
 			)
-			(property "Value" "Xiao nRF52840 Connectors"
+			(property "Value" ""
 				(at -10.16 -33.528 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5173,7 +5173,7 @@
 					)
 				)
 			)
-			(property "Description" "Symbol for a Seeeduino Xiao nRF52840 Plus"
+			(property "Description" "Symbol for Guilty Devboard Xrd development"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10422,190 +10422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "guilty-devboard:Guilty Devboard Xrd Connectors (dev)")
-		(at 133.35 265.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01d69cd9-af71-46c7-8d49-cd9b8f515fc4")
-		(property "Reference" "U3"
-			(at 123.19 296.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Xiao nRF52840 Connectors"
-			(at 123.19 298.958 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "guilty-devboard-idk:Guilty Devboard Xrd pads"
-			(at 133.35 314.198 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Symbol for a Seeeduino Xiao nRF52840 Plus"
-			(at 133.35 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "21"
-			(uuid "e05e5567-c690-45ba-a65f-05e752ef6303")
-		)
-		(pin "7"
-			(uuid "d270c7b1-9b18-4006-9ec4-cbcbae2a44ca")
-		)
-		(pin "5"
-			(uuid "d1b9e11a-927d-49e3-a5b1-62099cc9ff31")
-		)
-		(pin "4"
-			(uuid "5683cfa1-477e-4072-95fc-019aef31f187")
-		)
-		(pin "3"
-			(uuid "1b4558ea-a39b-47dc-a10f-49b4a43e6057")
-		)
-		(pin "2"
-			(uuid "39c8851f-8167-4af8-bb75-ed012f4316dd")
-		)
-		(pin "1"
-			(uuid "220e0a32-eee6-4a2f-b903-81d2bc5ac37a")
-		)
-		(pin "6"
-			(uuid "a9c1a0fa-c084-458a-b0b5-3611b1be9daf")
-		)
-		(pin "23"
-			(uuid "75764c11-d332-4cdd-8c6a-afc0f3b3318f")
-		)
-		(pin "10"
-			(uuid "92e92383-23bb-48c7-b4a5-5dc6a8939c6a")
-		)
-		(pin "30"
-			(uuid "c63fcef3-00be-4feb-9844-aac1fb1afba4")
-		)
-		(pin "28"
-			(uuid "ec41d313-e732-4e39-835e-c25d89e1f490")
-		)
-		(pin "34"
-			(uuid "65da7ec2-f071-4281-a407-213c38827473")
-		)
-		(pin "26"
-			(uuid "811ef91f-d11c-4e3d-9c5e-4255538681ac")
-		)
-		(pin "36"
-			(uuid "82878d23-c6cb-40c2-ae59-0a4ed1f10ee8")
-		)
-		(pin "9"
-			(uuid "7f2949c5-ec4d-4221-8f30-0f7c349fbcd4")
-		)
-		(pin "31"
-			(uuid "b23cdd94-6e76-488c-a1c9-ca60c6b56a8a")
-		)
-		(pin "35"
-			(uuid "a32628eb-15a3-4260-9a93-2f29c87aa8e4")
-		)
-		(pin "8"
-			(uuid "f6c8babd-3d5b-4740-8956-9862c0799a4e")
-		)
-		(pin "22"
-			(uuid "275e6dc3-ad00-42ec-8fab-6b303e4e90d9")
-		)
-		(pin "17"
-			(uuid "07d767cb-377d-4450-b555-268c4dc874a3")
-		)
-		(pin "27"
-			(uuid "90b92b35-96ca-4780-b6dc-991e74258813")
-		)
-		(pin "11"
-			(uuid "5063599b-1b2f-4021-8309-44cbfb867dc3")
-		)
-		(pin "13"
-			(uuid "078ed9ca-c072-4ec1-9c42-78ffc2b86e58")
-		)
-		(pin "25"
-			(uuid "b4792ca0-b6c6-4f30-bc0b-cdab49460920")
-		)
-		(pin "33"
-			(uuid "648d4384-fea6-437d-95cb-f47c76ac0eea")
-		)
-		(pin "12"
-			(uuid "d224abe3-9f77-4cd5-8a3e-8af6ed38b75b")
-		)
-		(pin "16"
-			(uuid "a4cbf183-5f30-4fe1-b5ea-dda67fa8cd90")
-		)
-		(pin "32"
-			(uuid "6282abd6-f28b-490b-80f0-330ba3d331cf")
-		)
-		(pin "15"
-			(uuid "ac37c127-54b9-4276-9427-f108613387f8")
-		)
-		(pin "14"
-			(uuid "2626d2cb-d124-4427-aa0f-7f86f55088cd")
-		)
-		(pin "24"
-			(uuid "227dbc62-f079-428d-bb6d-08fc22beff45")
-		)
-		(pin "19"
-			(uuid "a6e9d634-fb1d-4b61-9ce3-bd24b05b2e51")
-		)
-		(pin "20"
-			(uuid "e220d724-b41c-48cc-9e1a-e50145dc3c6b")
-		)
-		(pin "18"
-			(uuid "3ec05d92-3eca-45d9-9f1f-0098b8e00a32")
-		)
-		(pin "29"
-			(uuid "0dc84827-685d-48bd-89c3-c765a8a0fef9")
-		)
-		(instances
-			(project "guilty-devboard-idk"
-				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KiCad:C_Small")
 		(at 109.22 46.99 0)
 		(unit 1)
@@ -14630,6 +14446,190 @@
 			(project "guilty-devboard-idk"
 				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "guilty-devboard:Guilty Devboard Xrd Connectors (dev)")
+		(at 133.35 265.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa3c981-ef8f-4569-b3c1-8c26dc29a773")
+		(property "Reference" "U3"
+			(at 123.19 296.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 123.19 298.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "guilty-devboard-idk:Guilty Devboard Xrd pads"
+			(at 133.35 314.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Symbol for Guilty Devboard Xrd development"
+			(at 133.35 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "32"
+			(uuid "a23622f4-e4c3-4a2c-a446-ff8e38c1d5b2")
+		)
+		(pin "18"
+			(uuid "1a212894-2030-40d5-816b-1190d1574018")
+		)
+		(pin "16"
+			(uuid "eb9c6ba5-8f3d-40bc-8736-d4fa3364a753")
+		)
+		(pin "30"
+			(uuid "c4dd30fe-45f3-4d15-aa92-0a838eaa7666")
+		)
+		(pin "21"
+			(uuid "4ce08d48-d00a-469f-a989-6086ea686015")
+		)
+		(pin "15"
+			(uuid "a02e69dd-7738-443c-b45b-641ab49f60cf")
+		)
+		(pin "14"
+			(uuid "50c3ba3c-a7ab-4685-bdce-68c8d8d9bdd3")
+		)
+		(pin "13"
+			(uuid "e402224e-b35e-41d5-ad27-054581b10121")
+		)
+		(pin "12"
+			(uuid "24d25c75-6f24-43fa-95d6-b9ddf6359573")
+		)
+		(pin "11"
+			(uuid "603c0401-ce55-4cab-a307-ec55bc2cdfda")
+		)
+		(pin "35"
+			(uuid "ba100641-94ab-4f9d-9826-86dd9a4a47b0")
+		)
+		(pin "28"
+			(uuid "cc762692-cff5-4d24-ae5f-a2129218a330")
+		)
+		(pin "36"
+			(uuid "3b623397-8bd7-4175-843e-7d8f866664a7")
+		)
+		(pin "25"
+			(uuid "3817fcb2-0e0c-4035-a837-d3896217c0f7")
+		)
+		(pin "10"
+			(uuid "89556380-70e5-4dac-8faf-50d0d2000de8")
+		)
+		(pin "9"
+			(uuid "11427663-455f-4607-a054-ec07e7ea12e0")
+		)
+		(pin "8"
+			(uuid "ca714669-17a2-4a1e-a9f2-a5f8d714cb8a")
+		)
+		(pin "7"
+			(uuid "1ec96cc3-ae97-4289-927e-379de7aa35e5")
+		)
+		(pin "6"
+			(uuid "da5ae866-0a0f-4986-9686-9e016b4a9f25")
+		)
+		(pin "5"
+			(uuid "fc817dd7-1db6-4481-b007-2b28d5faff4e")
+		)
+		(pin "4"
+			(uuid "a616f0f5-7a47-4dd9-beb8-d1f2e4388e78")
+		)
+		(pin "3"
+			(uuid "fd056c4e-65ea-4ccc-954c-74e53743f2b0")
+		)
+		(pin "2"
+			(uuid "7a7c02bf-204a-4d19-ba43-166b03df3e62")
+		)
+		(pin "1"
+			(uuid "4faf7091-fc1e-49db-9443-76738c13d4cb")
+		)
+		(pin "19"
+			(uuid "53298b7b-dfea-4c20-b16c-87ab0ce20a45")
+		)
+		(pin "23"
+			(uuid "678241c9-58f9-4d6a-adb0-3a691e20865b")
+		)
+		(pin "22"
+			(uuid "d3fcc765-e2f6-4f85-95b9-dc8dc8473371")
+		)
+		(pin "24"
+			(uuid "9287ad7e-6816-4980-93a0-6c41360255b0")
+		)
+		(pin "29"
+			(uuid "aa8f9d5c-b13e-4dee-8101-df9179355064")
+		)
+		(pin "17"
+			(uuid "f4045dbf-7a17-4712-9ef6-061f7dae0b0b")
+		)
+		(pin "26"
+			(uuid "1c63a95e-6959-4461-900e-508731750324")
+		)
+		(pin "34"
+			(uuid "88e6f870-d211-41bd-8baf-68f399cc9518")
+		)
+		(pin "33"
+			(uuid "123fd999-4e37-4534-a0a6-fe7a8bd86533")
+		)
+		(pin "27"
+			(uuid "ebae7e1e-8a1c-49cd-ae28-56a9a001d993")
+		)
+		(pin "31"
+			(uuid "ee425c02-fac8-42d7-8f87-c949a8314271")
+		)
+		(pin "20"
+			(uuid "0483daba-6c4b-4690-acc9-7e0938bcfda5")
+		)
+		(instances
+			(project "guilty-devboard-idk"
+				(path "/f655de09-440b-4c8a-8451-7845142cd85d"
+					(reference "U3")
 					(unit 1)
 				)
 			)

@@ -488,7 +488,7 @@
 				)
 			)
 		)
-		(property "Value" "Xiao nRF52840 Connectors"
+		(property "Value" ""
 			(at -10.16 -33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -521,7 +521,7 @@
 				)
 			)
 		)
-		(property "Description" "Symbol for a Seeeduino Xiao nRF52840 Plus"
+		(property "Description" "Symbol for Guilty Devboard Xrd development"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1197,24 +1197,6 @@
 					)
 				)
 				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -19.05 180)
-				(length 2.54)
-				(name "D27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
